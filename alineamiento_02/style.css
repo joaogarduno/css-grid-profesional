@@ -1,0 +1,96 @@
+/* Tecnicas de alineamientos antes de CSS Grid - PARTE 2 - line-height */
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 550px;
+}
+.container{
+    background-color: bisque;
+    width: 180px;
+    height: 180px;
+}
+.element{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+/* CONTAINER 1 */
+.container1{
+    text-align: left;
+    line-height: 180px;
+}
+
+/* 1 */
+.element1{
+    background-color: lightcoral;
+    display: inline-block;
+    line-height: 45px;
+    vertical-align: top;
+}
+.element2{
+    background-color: lightcoral;
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.element3{
+    background-color: lightcoral;
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: bottom;
+}
+
+/* CONTAINER 2 */
+.container2{
+    text-align: center;
+    line-height: 180px;
+}
+
+/* 2 */
+.element4{
+    background-color: dodgerblue;
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: top;
+}
+.element5{
+    background-color: dodgerblue;
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.element6{
+    background-color: dodgerblue;
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: bottom;
+}
+
+
+/* CONTAINER 3 */
+.container3{
+    text-align: right;
+    line-height: 180px;
+}
+/* 3 */
+.element7{
+    background-color: sandybrown;
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: top;
+}.element8{
+    background-color: sandybrown;
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: middle;
+}.element9{
+    background-color: sandybrown;
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: bottom;
+}
