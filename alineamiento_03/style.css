@@ -1,0 +1,77 @@
+.element{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.element1{
+    background-color: forestgreen;
+    display: inline-block;
+}
+.element2{
+    background-color: gold;
+    display: inline-block;
+
+}
+.element3{
+    background-color: mediumorchid;
+    display: inline-block;
+}
+.container{
+    background-color: turquoise;
+    border: 1px solid white;
+    width: 180px;
+    height: 180px;
+}
+/*  PARTE 1 */
+.container1{
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+}
+.container2{
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+}
+.container3{
+    display: table-cell;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+/*  PARTE 2 */
+.container4{
+    display: table-cell;
+    text-align: center;
+    vertical-align: top;
+}
+.container5{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.container6{
+    display: table-cell;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+/*  PARTE 3 */
+.container7{
+    display: table-cell;
+    text-align: right;
+    vertical-align: top;
+}
+.container8{
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+}
+.container9{
+    display: table-cell;
+    text-align: right;
+    vertical-align: bottom;
+}
