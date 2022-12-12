@@ -1,0 +1,83 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 550px;
+}
+.container{
+    background-color: brown;
+    width: 180px;
+    height: 180px;
+    position: relative;
+}
+.element{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.element1{
+    background-color: aquamarine;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.element2{
+    background-color: aquamarine;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+}
+.element3{
+    background-color: aquamarine;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: translate(0, -100%);
+}
+.element4{
+    background-color: antiquewhite;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.element5{
+    background-color: antiquewhite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.element6{
+    background-color: antiquewhite;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+.element7{
+    background-color: coral;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transform: translate(-100%, 0);
+}
+.element8{
+    background-color: coral;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-100%, -50%);
+}
+.element9{
+    background-color: coral;
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-100%, -100%);
+}
