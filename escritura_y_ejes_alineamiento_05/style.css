@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .card{
+    background-color: #FFDADA;
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+    overflow-y: scroll;
+    overflow: hidden;
+    direction: rtl;
+    writing-mode: vertical-rl;
+}
+
+.card__header{
+    background-color: #DBF6E9;
+    padding: 20px;
+
+}
+.card__main{
+    background-color: #9DDFD3;
+    padding: 20px;
+} */
+
+.card{
+    outline: 1px solid red;
+    background-color: aqua;
+    padding: 10px 15px;
+    width: 25%;
+    /* writing-mode: horizontal-tb; */
+    /* writing-mode: sideways-lr; */
+    /* writing-mode: sideways-rl; */
+    /* writing-mode: vertical-lr; */
+    writing-mode: vertical-rl;
+}
+
+.card__header, .card__main{
+    margin: 10px 0;
+}
+
+.card__header{
+    outline: 1px solid red;
+    /* margin: 10px 0; */
+}
+.card__main{
+    outline: 1px solid red;
+}
