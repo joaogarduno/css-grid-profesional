@@ -1,0 +1,98 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 550px;
+}
+
+/* .container{
+    background: turquoise;
+    width: 180px;
+    height: 180px;
+} */
+/* .element{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+} */
+
+[class^="container"]{
+    background: turquoise;
+    width: 180px;
+    height: 180px;
+    flex-wrap: wrap; /* Se agrega un flexwrap, para que se pueda aplicar la propiedad place-content y combinar justify-content align-item */
+}
+[class^="element"]{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.element1{
+    background-color: rgb(248, 106, 106);
+}
+.element2{
+    background-color: rgb(51, 131, 100);
+}
+.element3{
+    background-color: rgb(182, 80, 207);
+}
+.container1{
+    display: flex;
+    /* justify-content: flex-start;
+    align-items: flex-start; */
+    /* Propiedad que se puede utilizar para ahorrar las lineas de codigo de arriba */
+    place-content: flex-start flex-start;
+}
+.container2{
+    display: flex;
+    /* justify-content: flex-start;
+    align-items: center; */
+    place-content: center flex-start;
+}
+.container3{
+    display: flex;
+    /* justify-content: flex-start;
+    align-items: flex-end; */
+    place-content: flex-end flex-start;
+}
+.container4{
+    display: flex;
+    /* justify-content: center;
+    align-items: flex-start; */
+    place-content: flex-start center;
+}
+.container5{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    place-content: center center;
+}
+.container6{
+    display: flex;
+    /* justify-content: center;
+    align-items: flex-end; */
+    place-content: flex-end center;
+}
+.container7{
+    display: flex;
+    /* justify-content: flex-end;
+    align-items: flex-start; */
+    place-content: flex-start flex-end;
+}
+.container8{
+    display: flex;
+    /* justify-content: flex-end;
+    align-items: center; */
+    place-content: center flex-end;
+}
+.container9{
+    display: flex;
+    /* justify-content: flex-end;
+    align-items: flex-end; */
+    place-content: flex-end;
+}
