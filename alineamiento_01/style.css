@@ -40,33 +40,33 @@
 /* 2 */
 .element4{
     background-color: dodgerblue;
-    display: inline-block;
+    /* display: inline-block; */
     margin: 0 auto; /*tecnica de margin*/
 }
 .element5{
     background-color: dodgerblue;
-    display: inline-block;
+    /* display: inline-block; */
     margin: 60px auto; /*tecnica de margin*/
 }
 .element6{
     background-color: dodgerblue;
-    display: inline-block;
+    /* display: inline-block; */
     margin: 120px auto; /*tecnica de margin*/
 }
 
 /* 3 */
 .element7{
     background-color: sandybrown;
-    display: inline-block;
+    /* display: inline-block; */
     margin: 0 0 0 auto; /*tecnica de margin*/
 }
 .element8{
     background-color: sandybrown;
-    display: inline-block;
+    /* display: inline-block; */
     margin: 60px 0 0 auto; /*tecnica de margin*/
 }
 .element9{
     background-color: sandybrown;
-    display: inline-block;
+    /* display: inline-block; */
     margin: 120px 0 0 auto; /*tecnica de margin*/
 }
